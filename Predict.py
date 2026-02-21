@@ -7,7 +7,7 @@ class Predictor(BasePredictor):
 
     def setup(self):
         # Load model once when container starts
-        self.model = tf.keras.models.load_model("paddy_disease_model.h5")
+        self.model = tf.keras.models.load_model("paddy_disease_model1.h5")
 
         # Define class labels (CHANGE THIS according to your model)
         self.classes = [
